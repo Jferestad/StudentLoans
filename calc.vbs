@@ -9,7 +9,7 @@ dim payemonthly
 
 
 familysize = Inputbox("What is your household family size?","Enter here")
-income = Inputbox("What is your household income. Note: If you are single only put YOUR income.","Enter here")
+income = Inputbox("What is your household income. Note: If you are single (or if you file your taxes single) only put YOUR income.","Enter here")
 
 'calculation for 150% poverty guidelines
 poverty = 17655 + ((familysize - 1) * 6240)
