@@ -33,5 +33,5 @@ payemonthly = Round(paye,2)
 
 
 
-message = MsgBox("Note: this is not accurate if you live in Alaska or Hawaii" & vbNewLine & vbNewLine & "PAYE estimated payment:" & " " & payemonthly & vbNewLine & "IBR estimated payment:" & " " & ibrmonthly, 0)
+message = MsgBox("Note: this is not accurate if you live in Alaska or Hawaii" & vbNewLine & vbNewLine & "PAYE estimated payment:" & " " & "$" & payemonthly & vbNewLine & "IBR estimated payment:" & " " & "$" & ibrmonthly, 0)
  
