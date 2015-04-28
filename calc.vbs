@@ -20,6 +20,7 @@ ibr = ((income - poverty) * 0.15) / 12
 'calculation for PAYE (10% discretionary income)
 paye = ((income - poverty) * 0.10) / 12
 
+'If a negative number is returned then it will display $0 instead of a negative currency
 if ibr < 0 then
 ibr = 0
 end if
@@ -28,6 +29,7 @@ if paye < 0 then
 paye = 0
 end if
 
+'round monthly payment values to only show dollar.cents
 ibrmonthly = Round(ibr,2)
 payemonthly = Round(paye,2)
 
